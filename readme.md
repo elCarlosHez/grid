@@ -192,7 +192,7 @@ Base Grid includes styles for flex grids with rows and columns for your layout f
 
 ## Demo
 
-[View page example](https://cdn.rawgit.com/getbase/grid/master/index.html) with the grid stylesheet applied.
+[View page example](https://rawgit.com/getbase/grid/master/index.html) with the grid and containers stylesheet applied.
 
 * * *
 

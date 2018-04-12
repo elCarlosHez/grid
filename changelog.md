@@ -1,5 +1,10 @@
 # Base Grid Change Log
 
+## [4.0.1] - 2018-04-13
+### Base Grid V4.0.1
+- Updated demo link in documentation
+- Version bump index.scss/less and package.json
+
 ## [4.0.0] - 2018-04-13
 ### Base Grid V4.0.0
 - Added Base Grid with rows and columns for all breakpoints
