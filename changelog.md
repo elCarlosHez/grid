@@ -1,5 +1,10 @@
 # Base Grid Change Log
 
+## [4.0.2] - 2018-04-13
+### Base Grid V4.0.2
+- Fixed broken paths in index.scss/less
+- Version bump index.scss/less and package.json
+
 ## [4.0.1] - 2018-04-13
 ### Base Grid V4.0.1
 - Updated demo link in documentation

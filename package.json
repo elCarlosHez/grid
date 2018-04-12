@@ -1,6 +1,6 @@
 {
   "name": "@getbase/grid",
-  "version": "4.0.1",
+  "version": "4.0.2",
   "description": "Base Grid",
   "homepage": "http://getbase.org/",
   "main": "gulpfile.js",
