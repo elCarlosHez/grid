@@ -41,14 +41,14 @@ Once you have the grid module installed, you can include it in your CSS/LESS/SCS
 
 #### CSS Import:
   ```css
-  import url("https://cdn.rawgit.com/getbase/grid/master/css/index.css");
+  @import url("https://unpkg.com/@getbase/grid/index.css");
   ```
 
 #### SCSS Import:
 
   ```scss
   /* Import Base Grid */
-  @import "node_modules/@getbase/grid/scss/index";
+  @import "~@getbase/grid/scss/index";
   /* Your Other Styles */
   @import "main"
   ```
@@ -56,9 +56,9 @@ Once you have the grid module installed, you can include it in your CSS/LESS/SCS
 
 #### LESS Import:
 
-  ```css
+  ```less
   /* Import Base Grid */
-  @import "node_modules/@getbase/grid/scss/index";
+  @import "~@getbase/grid/less/index";
   /* Your Other Styles */
   @import "main"
   ```
@@ -192,7 +192,7 @@ Base Grid includes styles for flex grids with rows and columns for your layout f
 
 ## Demo
 
-[View page example](https://rawgit.com/getbase/grid/master/index.html) with the grid and containers stylesheet applied.
+[View page example](https://unpkg.com/@getbase/grid/index.html) with the grid and containers stylesheet applied.
 
 * * *
 
