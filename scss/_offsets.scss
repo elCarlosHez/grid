@@ -1,0 +1,149 @@
+// ==========================================================================
+// Offsets classes
+// ==========================================================================
+
+// Offsets
+$offsets: 11;
+@for $i from 1 through $offsets {
+  .offset-#{$i} {
+    margin-left: ($i / ($offsets+1)) * 100%;
+  }
+}
+.offset-1-2 {
+    margin-left: (6 / 12) * 100%;
+}
+.offset-1-3 {
+    margin-left: (4 / 12) * 100%;
+}
+.offset-2-3 {
+    margin-left: (8 / 12) * 100%;
+}
+.offset-1-4 {
+    margin-left: (3 / 12) * 100%;
+}
+.offset-3-4 {
+    margin-left: (9 / 12) * 100%;
+}
+.offset-1-5 {
+   margin-left: (2.4 / 12) * 100%;
+}
+.offset-2-5 {
+   margin-left: (4.8 / 12) * 100%;
+}
+.offset-3-5 {
+    margin-left: (7.2 / 12) * 100%;
+}
+.offset-4-5 {
+    margin-left: (9.6 / 12) * 100%;
+}
+
+@include breakpoint(m) {
+  // Offset (Medium Devices)
+  $offsets: 11;
+  @for $i from 1 through $offsets {
+    .offset-#{$i}-m {
+        margin-left: ($i / ($offsets+1)) * 100%;
+    }
+  }
+  .offset-1-2-m {
+    margin-left: (6 / 12) * 100%;
+  }
+  .offset-1-3-m {
+    margin-left: (4 / 12) * 100%;
+  }
+  .offset-2-3-m {
+    margin-left: (8 / 12) * 100%;
+  }
+  .offset-1-4-m {
+    margin-left: (3 / 12) * 100%;
+  }
+  .offset-3-4-m {
+    margin-left: (9 / 12) * 100%;
+  }
+  .offset-1-5-m {
+    margin-left: (2.4 / 12) * 100%;
+  }
+  .offset-2-5-m {
+    margin-left: (4.8 / 12) * 100%;
+  }
+  .offset-3-5-m {
+    margin-left: (7.2 / 12) * 100%;
+  }
+  .offset-4-5-m {
+    margin-left: (9.6 / 12) * 100%;
+  }
+}
+
+@include breakpoint(l) {
+  // Columns (Large Devices)
+  $offsets: 11;
+  @for $i from 1 through $offsets {
+    .offset-#{$i}-l {
+      margin-left: ($i / ($offsets+1)) * 100%;
+    }
+  }
+  .offset-1-2-l {
+    margin-left: (6 / 12) * 100%;
+  }
+  .offset-1-3-l {
+    margin-left: (4 / 12) * 100%;
+  }
+  .offset-2-3-l {
+    margin-left: (8 / 12) * 100%;
+  }
+  .offset-1-4-l {
+    margin-left: (3 / 12) * 100%;
+  }
+  .offset-3-4-l {
+    margin-left: (9 / 12) * 100%;
+  }
+  .offset-1-5-l {
+    margin-left: (2.4 / 12) * 100%;
+  }
+  .offset-2-5-l {
+    margin-left: (4.8 / 12) * 100%;
+  }
+  .offset-3-5-l {
+    margin-left: (7.2 / 12) * 100%;
+  }
+  .offset-4-5-l {
+    margin-left: (9.6 / 12) * 100%;
+  }
+}
+
+@include breakpoint(xl) {
+  // Offsets (Extra Large Devices)
+  $offsets: 12;
+  @for $i from 1 through $offsets {
+    .offset-#{$i}-xl {
+      margin-left: ($i / ($offsets+1)) * 100%;
+    }
+  }
+  .offset-1-2-xl {
+    margin-left: (6 / 12) * 100%;
+  }
+  .offset-1-3-xl {
+    margin-left: (4 / 12) * 100%;
+  }
+  .offset-2-3-xl {
+    margin-left: (8 / 12) * 100%;
+  }
+  .offset-1-4-xl {
+    margin-left: (3 / 12) * 100%;
+  }
+  .offset-3-4-xl {
+    margin-left: (9 / 12) * 100%;
+  }
+  .offset-1-5-xl {
+    margin-left: (2.4 / 12) * 100%;
+  }
+  .offset-2-5-xl {
+    margin-left: (4.8 / 12) * 100%;
+  }
+  .offset-3-5-xl {
+    margin-left: (7.2 / 12) * 100%;
+  }
+  .offset-4-5-xl {
+    margin-left: (9.6 / 12) * 100%;
+  }
+}
