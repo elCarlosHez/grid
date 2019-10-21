@@ -1,0 +1,189 @@
+// ==========================================================================
+// Offsets classes
+// ==========================================================================
+
+// Offsets
+.generate-offset (11);
+.generate-offset (@index) when (@index > 0) {
+  .generate-offset (@index - 1);
+  .offset-@{index} {
+    margin-left: @index / 12 * 100%;
+  }
+}
+
+.offset-1-2 {
+  margin-left: (6 / 12) * 100%;
+}
+
+.offset-1-3 {
+  margin-left: (4 / 12) * 100%;
+}
+
+.offset-2-3 {
+  margin-left: (8 / 12) * 100%;
+}
+
+.offset-1-4 {
+  margin-left: (3 / 12) * 100%;
+}
+
+.offset-3-4 {
+  margin-left: (9 / 12) * 100%;
+}
+
+.offset-1-5 {
+  margin-left: (2.4 / 12) * 100%;
+}
+
+.offset-2-5 {
+  margin-left: (4.8 / 12) * 100%;
+}
+
+.offset-3-5 {
+  margin-left: (7.2 / 12) * 100%;
+}
+
+.offset-4-5 {
+  margin-left: (9.6 / 12) * 100%;
+}
+
+@media only screen and (min-width: @breakpoint-m) {
+  // Offsets (Medium Devices)
+  .generate-offset-m (11);
+  .generate-offset-m (@index) when (@index > 0) {
+    .generate-offset-m (@index - 1);
+    .offset-@{index}-m {
+      margin-left: @index / 12 * 100%;
+    }
+  }
+
+  .offset-1-2-m {
+    margin-left: (6 / 12) * 100%;
+  }
+
+  .offset-1-3-m {
+    margin-left: (4 / 12) * 100%;
+  }
+
+  .offset-2-3-m {
+    margin-left: (8 / 12) * 100%;
+  }
+
+  .offset-1-4-m {
+    margin-left: (3 / 12) * 100%;
+  }
+
+  .offset-3-4-m {
+    margin-left: (9 / 12) * 100%;
+  }
+
+  .offset-1-5-m {
+    margin-left: (2.4 / 12) * 100%;
+  }
+
+  .offset-2-5-m {
+    margin-left: (4.8 / 12) * 100%;
+  }
+
+  .offset-3-5-m {
+    margin-left: (7.2 / 12) * 100%;
+  }
+
+  .offset-4-5-m {
+    margin-left: (9.6 / 12) * 100%;
+  }
+}
+
+@media only screen and (min-width: @breakpoint-l) {
+  // Offsets (Large Devices)
+  .generate-offset-l (11);
+  .generate-offset-l (@index) when (@index > 0) {
+    .generate-offset-l (@index - 1);
+    .offset-@{index}-l {
+      offset: @index / 12 * 100%;
+    }
+  }
+
+  .offset-1-2-l {
+    margin-left: (6 / 12) * 100%;
+  }
+
+  .offset-1-3-l {
+    margin-left: (4 / 12) * 100%;
+  }
+
+  .offset-2-3-l {
+    margin-left: (8 / 12) * 100%;
+  }
+
+  .offset-1-4-l {
+    margin-left: (3 / 12) * 100%;
+  }
+
+  .offset-3-4-l {
+    margin-left: (9 / 12) * 100%;
+  }
+
+  .offset-1-5-l {
+    margin-left: (2.4 / 12) * 100%;
+  }
+
+  .offset-2-5-l {
+    margin-left: (4.8 / 12) * 100%;
+  }
+
+  .offset-3-5-l {
+    margin-left: (7.2 / 12) * 100%;
+  }
+
+  .offset-4-5-l {
+    margin-left: (9.6 / 12) * 100%;
+  }
+}
+
+@media only screen and (min-width: @breakpoint-xl) {
+  // Offsets (Extra Large Devices)
+  .generate-offset-xl (11);
+  .generate-offset-xl (@index) when (@index > 0) {
+    .generate-offset-xl (@index - 1);
+    .offset-@{index}-xl {
+      margin-left: @index / 12 * 100%;
+    }
+  }
+
+  .offset-1-2-xl {
+    margin-left: (6 / 12) * 100%;
+  }
+
+  .offset-1-3-xl {
+    margin-left: (4 / 12) * 100%;
+  }
+
+  .offset-2-3-xl {
+    margin-left: (8 / 12) * 100%;
+  }
+
+  .offset-1-4-xl {
+    margin-left: (3 / 12) * 100%;
+  }
+
+  .offset-3-4-xl {
+    margin-left: (9 / 12) * 100%;
+  }
+
+  .offset-1-5-xl {
+    margin-left: (2.4 / 12) * 100%;
+  }
+
+  .offset-2-5-xl {
+    margin-left: (4.8 / 12) * 100%;
+  }
+
+  .offset-3-5-xl {
+    margin-left: (7.2 / 12) * 100%;
+  }
+
+  .offset-4-5-xl {
+    margin-left: (9.6 / 12) * 100%;
+  }
+}
